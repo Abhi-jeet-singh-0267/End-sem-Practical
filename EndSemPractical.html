@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily News Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color:wild sand;
+        }
+        header{
+            background-color:#1a1a1a;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+        nav{
+            background-color:#333;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#ffcc00;
+        }
+        .container{
+            width:90%;
+            margin:20px auto;
+        }
+
+        .news{
+            background:white;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:5px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .news img{
+            width:100%;
+            height:300px;
+            object-fit:cover;
+            border-radius:5px;
+        }
+
+        .news h2{
+            margin:15px 0;
+        }
+
+        .news p{
+            margin-bottom:10px;
+        }
+
+        .video-section{
+            background:white;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:5px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        iframe{
+            width:100%;
+            height:400px;
+            border-radius:5px;
+        }
+        footer{
+            background:#1a1a1a;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+        @media(max-width:768px){
+            iframe{
+                height:250px;
+            }
+            .news img{
+                height:200px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1> Daily News Portal</h1>
+    <p>Your Trusted Source for Latest Updates</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">National</a>
+    <a href="#">International</a>
+    <a href="#">Sports</a>
+    <a href="#">Technology</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="news">
+        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c" alt="News Image">
+        <h2>Breaking News: Major Event Happening Today</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        <a href="https://www.bbc.com" target="_blank">Read Full Story</a>
+    </div>
+    <div class="news">
+        <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e" alt="News Image">
+        <h2>Technology Update: New Innovation Released</h2>
+        <p>Lorem, consectetur elit. Praesent euismod.</p>
+        <a href="https://www.cnn.com" target="_blank">Explore More</a>
+    </div>
+    <div class="video-section">
+        <h2>Watch Today’s Top Headlines</h2>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/MdNCYfZBV5k?si=HcgX1CJCSRSznsbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Daily News Portal | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
